@@ -1,0 +1,9 @@
+:root{
+    font-size: 10px;
+    --primarycolor: #618264;
+    --neutralcolor:#000E01;
+    --secondarycolor:#79AC78;
+    --ibmfont:"IBM Plex Sans Hebrew", sans-serif;
+    --interfontfamily:"Inter", sans-serif;
+}
+
