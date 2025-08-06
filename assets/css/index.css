@@ -7,3 +7,104 @@
     --interfontfamily:"Inter", sans-serif;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav{
+    display: flex;
+    /* background-color: rgb(93, 93, 129); */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 50%;
+    font-size: 2.4rem;
+    font-family: var(--interfontfamily);
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--neutralcolor);
+}
+
+.btn{
+    width: 17rem;
+    height: 5rem;
+    border-radius: 3rem;
+    background-color: var(--primarycolor);
+    border: none;
+    color: #ffff;
+    font-family: var(--interfontfamily);
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.sec1{
+    display: flex;
+    margin: 0;
+    padding: 6rem 5rem;
+    justify-content: space-between;
+}
+
+.image{
+   flex: 1.7;
+}
+
+img[src="/assets/images/Francis-Ngannou-domine-Ciryl-Gane-au-sol-et-remporte-le-combat-par-decision-unanime 1.png"]{
+    width: 100%;
+    background-color: red;
+}
+
+.des_sec1{
+    flex: 1;
+    /* background: #e0c9c9; */
+    padding: 0 6rem 0 0;
+    height: 70rem;
+}
+
+.des_sec1 h2{
+    border-left: var(--primarycolor) 1rem solid;
+    font-size: 2rem;
+    font-family: var(--ibmfont);
+    font-weight: 600;
+    height: 2.3rem;
+    margin-left: 4rem;
+}
+
+.img_desc1 img{
+    width: 23.5rem;
+    flex: 1;
+}
+
+.des_sec1 li{
+    display: flex;
+    line-height: 2.3rem;
+    align-items: center;
+    font-size: 2rem;
+    font-family: var(--interfontfamily);
+    background-color: #fff;
+    padding-top: 5rem;
+    margin-left: 4rem;
+}
+
+.img_desc1{
+   flex: 1;
+}
+
+.text_desc1{
+    flex: 1.7;
+}
+
+.marg{
+    margin-top: 2rem;
+}
