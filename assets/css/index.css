@@ -14,7 +14,7 @@
     font-family: var(--interfontfamily);
 
 }
-
+/* Traitement de la nav bar */
 nav{
     display: flex;
     /* background-color: rgb(93, 93, 129); */
@@ -38,6 +38,19 @@ nav a{
     color: var(--neutralcolor);
 }
 
+nav a:hover{
+    color: var(--secondarycolor);
+    border-bottom: 1px solid var(--primarycolor);
+    padding-bottom: 1rem;
+}
+
+.active{
+      color: var(--secondarycolor);
+    border-bottom: 1px solid var(--primarycolor);
+    padding-bottom: 1rem;
+
+}
+
 .btn{
     width: 17rem;
     height: 5rem;
@@ -49,7 +62,9 @@ nav a{
     font-size: 1.5rem;
     font-weight: 900;
 }
+/* FIn de la nav bar */
 
+/* Debut 1 section */
 .sec1{
     display: flex;
     margin: 0;
@@ -75,6 +90,7 @@ img[src="/assets/images/Francis-Ngannou-domine-Ciryl-Gane-au-sol-et-remporte-le-
 
 .des_sec1 h2{
     border-left: var(--primarycolor) 1rem solid;
+    padding-left: 2rem;
     font-size: 2rem;
     font-family: var(--ibmfont);
     font-weight: 600;
@@ -111,6 +127,10 @@ img[src="/assets/images/Francis-Ngannou-domine-Ciryl-Gane-au-sol-et-remporte-le-
     margin-top: 2rem;
 }
 
+/* Fin */
+
+/* Debut Section 2 */
+
 .sec2{
     display: flex;
     justify-content: space-between;
@@ -136,6 +156,10 @@ img[src="/assets/images/Francis-Ngannou-domine-Ciryl-Gane-au-sol-et-remporte-le-
     font-size: 2rem;
 }
 
+/* FIn */
+
+/* Debut section 3 */
+
 .sec3{
     margin: 10rem 4rem;
     /* background-color: #7a5656; */
@@ -152,6 +176,9 @@ img[src="/assets/images/Francis-Ngannou-domine-Ciryl-Gane-au-sol-et-remporte-le-
     margin-bottom: 6rem;
 }
 
+/* FIn  */
+
+/* DEbut section 4 */
 .sec4{
     /* background-color: #618264; */
    margin: auto;
@@ -206,6 +233,10 @@ img[src="/assets/images/Francis-Ngannou-domine-Ciryl-Gane-au-sol-et-remporte-le-
     margin: 5rem 2rem;
 }
 
+/* FIn */
+
+/* Debut section 5 */
+
 .sec5{
     display: flex;
     /* background-color: #000E01; */
@@ -234,6 +265,10 @@ img[src="/assets/images/Francis-Ngannou-domine-Ciryl-Gane-au-sol-et-remporte-le-
     font-weight: 700;
     text-align: center;
 }
+
+/* Fin */
+
+/* DEbut section 6 */
 
 .sec6{
     display: flex;
@@ -289,6 +324,9 @@ img[src="/assets/images/Rectangle 23 (1).png"]{
     /* height: 70rem; */
 }
 
+/* FIn */
+
+/* Section 7 */
 .sec7{
     display: flex;
     justify-content: center;
@@ -296,6 +334,9 @@ img[src="/assets/images/Rectangle 23 (1).png"]{
     /* background-color: #618264; */
 }
 
+/* FIn */
+
+/* Section 8 */
 .sec8{
     display: flex;
     margin:  10rem;
@@ -318,6 +359,9 @@ img[src="/assets/images/Rectangle 23 (1).png"]{
     text-align: center;
 }
 
+/* FIn */
+
+/* PIED DE PAGE */
 footer{
     background: var(--primarycolor);
     display: flex;
@@ -334,3 +378,12 @@ footer{
     margin: 3rem 0;
     text-align: center;
 }
+
+footer img:hover{
+    background-color: #000E01;
+    border-radius: 1.2rem;
+}
+
+/* FIN */
+
+/* Code par SNIPER_PRO */
