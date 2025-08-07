@@ -11,6 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--interfontfamily);
 
 }
 
@@ -137,7 +138,7 @@ img[src="/assets/images/Francis-Ngannou-domine-Ciryl-Gane-au-sol-et-remporte-le-
 
 .sec3{
     margin: 10rem 4rem;
-    background-color: #7a5656;
+    /* background-color: #7a5656; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -207,5 +208,81 @@ img[src="/assets/images/Francis-Ngannou-domine-Ciryl-Gane-au-sol-et-remporte-le-
 
 .sec5{
     display: flex;
+    /* background-color: #000E01; */
     margin: 5rem 4rem;
+    justify-content: space-between;
+}
+
+
+
+.desc6 img{
+    width: 35rem;
+    height: 35rem;
+    /* background-color: red; */
+}
+
+.desc_7{
+    color: var(--secondarycolor);
+    font-style: italic;
+    font-size: 1rem;
+    font-family: var(--ibmfont);
+}
+
+.desc_8{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.sec6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 17rem 0;
+}
+
+.sec6 h2{
+    color: var(--secondarycolor);
+    font-size: 4rem;
+    text-transform: capitalize;
+}
+
+.desc_sec6{
+    display: flex;
+    background-color: rgb(36, 190, 218);
+    /* padding: 3rem 5rem; */
+    font-size: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    line-height: 4.3rem;
+}
+
+.desc_text_sec6{
+    flex: 1;
+    /* background-color: #fff; */
+    margin: 0 0 0 23rem;
+}
+
+.desc_text_sec6 h3{
+    margin-top: 2rem;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.lien2{
+    margin: 4rem;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #fff; */
+    align-items: center;
+    width: 50%;
+}
+
+.sec6_img{
+    flex: 1.8;
+    text-align: center;
+}
+
+img[src="/assets/images/Rectangle 23 (1).png"]{
+    width: 80%;
+    /* height: 70rem; */
 }
