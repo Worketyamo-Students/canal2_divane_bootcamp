@@ -226,11 +226,13 @@ img[src="/assets/images/Francis-Ngannou-domine-Ciryl-Gane-au-sol-et-remporte-le-
     font-style: italic;
     font-size: 1rem;
     font-family: var(--ibmfont);
+    text-align: center;
 }
 
 .desc_8{
     font-size: 2rem;
     font-weight: 700;
+    text-align: center;
 }
 
 .sec6{
@@ -248,7 +250,7 @@ img[src="/assets/images/Francis-Ngannou-domine-Ciryl-Gane-au-sol-et-remporte-le-
 
 .desc_sec6{
     display: flex;
-    background-color: rgb(36, 190, 218);
+    /* background-color: rgb(36, 190, 218); */
     /* padding: 3rem 5rem; */
     font-size: 2.5rem;
     justify-content: center;
@@ -285,4 +287,50 @@ img[src="/assets/images/Francis-Ngannou-domine-Ciryl-Gane-au-sol-et-remporte-le-
 img[src="/assets/images/Rectangle 23 (1).png"]{
     width: 80%;
     /* height: 70rem; */
+}
+
+.sec7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #618264; */
+}
+
+.sec8{
+    display: flex;
+    margin:  10rem;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.desc10{
+    color: var(--secondarycolor);
+    font-style: italic;
+    font-size: 1rem;
+    font-family: var(--ibmfont);
+    text-align: center;
+}
+
+.desc11{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+footer{
+    background: var(--primarycolor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+}
+
+.lien3{
+     display: flex;
+    justify-content: space-between;
+    /* background-color: #fff; */
+    width: 30%;
+    margin: 3rem 0;
+    text-align: center;
 }
