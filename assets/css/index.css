@@ -93,7 +93,7 @@ img[src="/assets/images/Francis-Ngannou-domine-Ciryl-Gane-au-sol-et-remporte-le-
     font-size: 2rem;
     font-family: var(--interfontfamily);
     background-color: #fff;
-    padding-top: 5rem;
+    padding-top: 7rem;
     margin-left: 4rem;
 }
 
@@ -103,8 +103,109 @@ img[src="/assets/images/Francis-Ngannou-domine-Ciryl-Gane-au-sol-et-remporte-le-
 
 .text_desc1{
     flex: 1.7;
+    margin-left: 2rem;
 }
 
 .marg{
     margin-top: 2rem;
+}
+
+.sec2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 2rem 4rem;
+}
+
+.sec2 img{
+    width: 30rem;
+    height: 30rem;
+}
+
+.desc3{
+    color: var(--secondarycolor);
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.desc4{
+    font-family: var(--interfontfamily);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.sec3{
+    margin: 10rem 4rem;
+    background-color: #7a5656;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sec3 h2{
+    font-size: 5rem;
+    font-family: var(--interfontfamily);
+    margin-bottom: 6rem;
+}
+
+.sec4{
+    /* background-color: #618264; */
+   margin: auto;
+}
+
+.sec4_desc{
+    display: flex;
+    justify-content: space-around;
+    margin:0 16rem;
+
+}
+
+.sec4_img {
+    /* background-color: aqua; */
+    flex: 2.3;
+}
+
+
+.sec4 h1{
+    font-family: var(--interfontfamily);
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom:10rem ;
+}
+
+.desc-sec4{
+    /* background-color: #d64747; */
+    flex: 2;
+    font-family: var(--interfontfamily);
+    font-size: 2rem;
+    padding-right: 10rem ;
+    line-height: 3rem;
+}
+
+.desc-sec4 h2{
+    font-family: var(--interfontfamily);
+    color: var(--primarycolor);
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.lien1{
+    margin: 4rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    align-items: center;
+    width: 30%;
+}
+
+.sec4_jou{
+    margin: 5rem 2rem;
+}
+
+.sec5{
+    display: flex;
+    margin: 5rem 4rem;
 }
