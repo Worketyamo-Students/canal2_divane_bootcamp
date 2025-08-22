@@ -12,23 +12,32 @@
     padding: 0;
     box-sizing: border-box;
     font-family: var(--interfontfamily);
-
+    overflow-x: hidden;
 }
+body{
+    
+    /* background-color: #000E01; */
+    width: 100vw;
+}
+
 /* Traitement de la nav bar */
+
 nav{
     display: flex;
-    /* background-color: rgb(93, 93, 129); */
+    background-color: rgb(93, 93, 129);
     justify-content: space-between;
     align-items: center;
     padding: 0 4rem;
+    width: 100%;
 }
 
 nav ul{
     display: flex;
     list-style: none;
     justify-content: space-between;
-    background-color: #fff;
+    /* background-color: #fff; */
     width: 50%;
+    height: 4rem;
     font-size: 2.4rem;
     font-family: var(--interfontfamily);
 }
@@ -36,12 +45,14 @@ nav ul{
 nav a{
     text-decoration: none;
     color: var(--neutralcolor);
+   
 }
 
 nav a:hover{
     color: var(--secondarycolor);
-    border-bottom: 1px solid var(--primarycolor);
-    padding-bottom: 1rem;
+    /* border-bottom: 1px solid var(--primarycolor); */
+    /* padding-bottom: 1rem;
+     height: 1rem; */
 }
 
 .active{
@@ -90,11 +101,11 @@ img[src="/assets/images/Francis-Ngannou-domine-Ciryl-Gane-au-sol-et-remporte-le-
 
 .des_sec1 h2{
     border-left: var(--primarycolor) 1rem solid;
-    padding-left: 2rem;
-    font-size: 2rem;
+    /* padding-left: 2rem; */
+    /* font-size: 2rem; */
     font-family: var(--ibmfont);
     font-weight: 600;
-    height: 2.3rem;
+    height: 4rem;
     margin-left: 4rem;
 }
 
@@ -218,6 +229,8 @@ img[src="/assets/images/Francis-Ngannou-domine-Ciryl-Gane-au-sol-et-remporte-le-
     color: var(--primarycolor);
     font-size: 3rem;
     margin-bottom: 3rem;
+    /* background: #000; */
+    height: 4rem;
 }
 
 .lien1{
@@ -384,6 +397,98 @@ footer img:hover{
     border-radius: 1.2rem;
 }
 
+.menu{
+    display: none;
+}
+
+ 
+
+
 /* FIN */
 
 /* Code par SNIPER_PRO */
+
+@media only screen and (max-width: 870px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        
+        width: 100vw;
+    }
+    .header{
+        width: 100%;
+        height: 5rem;
+        background-color: #618264;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 3rem;
+    }
+    nav ul, .btn{
+        display: none;
+        background: #000;
+    }
+    .menu{
+        width: 5rem;
+        display: flex;
+        background-color: #fff;
+    }
+   /* Nganou */
+
+   .sec1{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+
+   .sec1  img{
+    width: 100%;
+    height: 70%;
+   }
+
+     .des_sec1{
+        background-color: aqua;
+        width: 100%;
+        display: flex;
+        left: 0;
+        flex-direction: column;
+        margin: 0rem;
+        padding: 0rem;
+    }
+    .des_sec1 h2{
+        width: 100%;
+        font-size: 2rem;
+        background-color:#d6a9a9;
+        display: flex;
+        align-items: center;
+    }
+  
+
+    .des_sec1 ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background: #000;
+    }
+
+    .des_sec1 li{
+        /* background-color: #502e2e; */
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        padding: 2rem 0rem;
+        border-bottom: .1rem solid #000;
+
+    }
+
+    .sec3 h2{
+        font-size: 3rem;
+    }
+}
