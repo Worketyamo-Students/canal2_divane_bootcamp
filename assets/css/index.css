@@ -87,7 +87,7 @@ nav a:hover{
    flex: 1.7;
 }
 
-img[src="/assets/images/Francis-Ngannou-domine-Ciryl-Gane-au-sol-et-remporte-le-combat-par-decision-unanime 1.png"]{
+img[src="./assets/images/Francis-Ngannou-domine-Ciryl-Gane-au-sol-et-remporte-le-combat-par-decision-unanime 1.png"]{
     width: 100%;
     background-color: red;
 }
@@ -195,6 +195,7 @@ img[src="/assets/images/Francis-Ngannou-domine-Ciryl-Gane-au-sol-et-remporte-le-
    margin: auto;
 }
 
+
 .sec4_desc{
     display: flex;
     justify-content: space-around;
@@ -210,7 +211,7 @@ img[src="/assets/images/Francis-Ngannou-domine-Ciryl-Gane-au-sol-et-remporte-le-
 
 .sec4 h1{
     font-family: var(--interfontfamily);
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
     margin-bottom:10rem ;
 }
@@ -332,7 +333,7 @@ img[src="/assets/images/Francis-Ngannou-domine-Ciryl-Gane-au-sol-et-remporte-le-
     text-align: center;
 }
 
-img[src="/assets/images/Rectangle 23 (1).png"]{
+img[src="./assets/images/Rectangle 23 (1).png"]{
     width: 80%;
     /* height: 70rem; */
 }
@@ -396,10 +397,15 @@ footer img:hover{
     background-color: #000E01;
     border-radius: 1.2rem;
 }
-
+/* Nouveau element */
 .menu{
     display: none;
 }
+
+.sec4 h2, .sec7 h2{
+    display: none;
+}
+
 
  
 
@@ -413,10 +419,12 @@ footer img:hover{
     *{
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
     }
     body{
-        
+        margin: 0 2rem;
         width: 100vw;
+        overflow-x: hidden;
     }
     .header{
         width: 100%;
@@ -429,9 +437,9 @@ footer img:hover{
         justify-content: space-between;
         padding: 0 3rem;
     }
-    nav ul, .btn{
+    nav ul, .btn, .sec4 h1{
         display: none;
-        background: #000;
+        /* background: #000; */
     }
     .menu{
         width: 5rem;
@@ -444,8 +452,7 @@ footer img:hover{
     display: flex;
     flex-direction: column;
     gap: 4rem;
-
-}
+    }
 
    .sec1  img{
     width: 100%;
@@ -487,8 +494,91 @@ footer img:hover{
         border-bottom: .1rem solid #000;
 
     }
-
-    .sec3 h2{
-        font-size: 3rem;
+     .sec3{
+        background: #000;
+        margin-top: 0;
     }
+    .sec4 h2, .sec3 h2{
+        display: flex;
+        font-size: 3.4rem;
+        text-align: center;
+    } 
+    .sec4{
+        /* background-color: #d6a9a9; */
+        width: 100%;
+    }
+        
+    .sec4_desc{
+        display: flex;
+        flex-direction: column;
+        /* background-color: rgb(178, 63, 207); */
+        /* width: 100%; */
+         margin: 0;
+         padding: 5rem;
+         
+    } 
+    .sec4_img{
+        width: 100%;
+        background-color: #fff;
+        text-align: center;
+    }
+    .sec4_img img{
+        /* width: 100%; */
+        /* background-color: #000E01; */
+        text-align: center;
+    }
+
+    .desc-sec4{
+        margin-top: 3rem;
+        /* background: #000; */
+        font-size: 2.5rem;
+    }
+    .sec4_jou{
+        margin: 2rem;
+    }
+    .lien1{
+        width: 100%;
+    }
+    .desc_sec6{
+        display: flex;
+        flex-direction: column-reverse;
+        /* background-color: #618264; */
+        width: 100%;
+        margin: 0;
+    }
+    .desc_text_sec6{
+        display: flex;
+        flex-direction: column;
+        margin: 0 6rem;
+        /* background-color: #fff; */
+        padding: 5rem;
+    }
+
+    .desc_text_sec6 h2{
+        font-size: 5.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .sec6_img img{
+        width: 100%;
+
+    }
+    .sec7{
+        display: flex;
+        flex-direction: column;
+    }
+    .sec7 h2{
+        display: flex;
+        font-size: 5rem;
+        font-family: var(--interfontfamily);
+        border-left: 1.5rem solid var(--primarycolor);
+        padding-left: 1rem;
+        align-items: center;
+        color: var(--primarycolor);
+    }
+
+    .sec7 img{
+        width: 100%;
+    }
+
 }
